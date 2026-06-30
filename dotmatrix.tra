@@ -1,0 +1,25 @@
+*** Creating Trace Output File 'dotmatrix.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"74ls164.o"'
+### List of Objects: adding '"delays.o"'
+### List of Objects: adding '"dml.o"'
+### List of Objects: adding '"spi_eeprom.o"'
+### List of Objects: adding '"spi.o"'
+### List of Objects: adding '"uart_int.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "74ls164.o" "delays.o" "dml.o" "spi_eeprom.o" "spi.o" "uart_int.o" --strict --scatter "dotmatrix.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\dotmatrix.map" -o "dotmatrix.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'dotmatrix.axf'
+### ADS-LD Command File: 'dotmatrix.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'dotmatrix.lnp', Handle=0x00000314
+### Writing '.lnp' file
+### ADS-LD Command file 'dotmatrix.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
